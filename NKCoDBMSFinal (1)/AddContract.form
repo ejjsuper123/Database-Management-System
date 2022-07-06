@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" pref="533" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="Contract_BillAmountText" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Contract_Start_DateText" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Job_TypeText" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Profit_LossIDText" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Contract_IDText" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Contract_BillAmountPaidText" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="ContractBillAmountPaidText" max="32767" attributes="0"/>
+                                      <Component id="ContractBillAmountText" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="ContractStartDateText" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="JobTypeText" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="ProfitLossIDText" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="ContractID" alignment="1" min="-2" pref="192" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Employee_FeedbackScoreText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Vendor_FeedbackScoreText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Account_ManagerSSNText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Client_IDNumberText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="EmployeeFeedbackScoreText" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="VendorFeedbackScoreText" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="ClientIDNumberText" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="ContractEndDateText" alignment="0" pref="205" max="32767" attributes="0"/>
+                                      <Component id="AccountManagerSSNText" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="282" max="-2" attributes="0"/>
+                                  <Component id="AddBtn" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                  <Component id="BackToMain" min="-2" pref="161" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                  <Component id="BackToMain1" min="-2" pref="109" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="73" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Contract_IDText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Employee_FeedbackScoreText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ContractID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="EmployeeFeedbackScoreText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Profit_LossIDText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Vendor_FeedbackScoreText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ProfitLossIDText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="VendorFeedbackScoreText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Job_TypeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Account_ManagerSSNText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="JobTypeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AccountManagerSSNText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Contract_Start_DateText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ContractStartDateText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Client_IDNumberText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ClientIDNumberText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Contract_BillAmountText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ContractBillAmountText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ContractEndDateText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Contract_BillAmountPaidText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ContractBillAmountPaidText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="BackToMain" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AddBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="BackToMain1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="350" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Contract_BillAmountText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contract Bill Amount"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Contract_BillAmountPaidText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contract Bill Amount Paid"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Employee_FeedbackScoreText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Employee Feedback Score"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Vendor_FeedbackScoreText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Vendor Feedback Score"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Account_ManagerSSNText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Account Manager SSN"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ContractID">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ContractIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ProfitLossIDText">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProfitLossIDTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="JobTypeText">
+        </Component>
+        <Component class="javax.swing.JTextField" name="ContractStartDateText">
+        </Component>
+        <Component class="javax.swing.JTextField" name="ContractBillAmountText">
+        </Component>
+        <Component class="javax.swing.JButton" name="BackToMain1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Logout"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LogoutBtn"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="H:\Latest Screen Shot.PNG"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Contract_IDText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contract ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Profit_LossIDText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Proftit-Loss ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Job_TypeText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Job Type"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Contract_Start_DateText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contract Start Date"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ContractBillAmountPaidText">
+        </Component>
+        <Component class="javax.swing.JTextField" name="EmployeeFeedbackScoreText">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EmployeeFeedbackScoreTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="VendorFeedbackScoreText">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="VendorFeedbackScoreTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Client_IDNumberText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Client ID Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ClientIDNumberText">
+        </Component>
+        <Component class="javax.swing.JButton" name="BackToMain">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Back To Tables"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BackToMainActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="AddBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Add Contract"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ContractEndDateText">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contract End Date"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="AccountManagerSSNText">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="010109909"/>
+                <StringItem index="1" value="222334414"/>
+                <StringItem index="2" value="818181818"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
